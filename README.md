@@ -59,3 +59,5 @@ Now drastically reduce the code size of your complete code changes by heavily re
 - User can reorder the tasks in a status column by dragging and dropping.
 - User can change the satus of tasks by simplu dragging and dropping a task between the status columns.
 - Responsive for different screen sizes.
+
+9) I have setup the gitlab + netlify pipelines so that every time a marge to main branch happens, it automatically triggers build and deploy pipelines to production.
