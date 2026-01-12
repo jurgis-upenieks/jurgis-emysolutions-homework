@@ -47,7 +47,7 @@ Applies to all new or changed code. Use all the AI agent default implicit rules 
 9) For code organization MUST use Composition API.
 
 10) MUST use TypeScript instead of plain JavaScript.
-- MUST NOT use any, but instead an appropriate proper TypeScript type.
+- MUST NOT use `any`, but instead an appropriate proper TypeScript type – preferably built-in or a existing struct or interface, or as a last resort, if there really is no existing type - create a new one in a proper way how the types should be organized and located.
 
 11) Cleanup after changes
 - After making changes, in new code only, always additionally MUST considerably reduce boilerplate and clean up by leveraging built‑ins and already available infrastrucure/components over custom implementation, while still keeping what is really needed functionally and visually.
@@ -74,10 +74,10 @@ Applies to all new or changed code. Use all the AI agent default implicit rules 
 - MUST NOT run any automated test during or after making changes.
 - Should only run or change automated tests if explicitly asked to do so.
 
-15) No linter warnings, errors, deprecated code, and such allowed.
+18) No linter warnings, errors, deprecated code, and such allowed.
 - MUST only at the very end after making all changes, check if in the changes there are linting errors, warnings, deprecated code, and such, and if there are any, fix them.
 - When checking for linting warnings, errors, and deprecations, rely on webstorms integrated built-ins, instead of running formatting and linting commands in the terminal.
 - When fixing the identified linting warnings, errors, and deprecations, don't use formating terminal tools, but fix with your artificial intelligence and simplest ones with webstroms integrated built-ins.
 
-16) When asked to fix a bug
+19) When asked to fix a bug
 - When asked to fix a bug, MUST do your best, investigate very carefully, thoughtfully and very wide and very deep, and make sure to not cause any functional or visual regressions in the touched parts and anywhere throughout the rest of the site where the touched parts are directly or indirectly used.
