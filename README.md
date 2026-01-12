@@ -1,6 +1,6 @@
 1) I have generated this project with command `npx create-vuetify@latest jurgis-emysolutions-homework --preset essentials --typescript --pm npm`, where:
 - `npx` is npm tool for implicitly downloading and installing the 'create-vuetify' vue+vuetify project generation CLI npm tool before running it, and then runs it.
-- It is wiser to have the `create-vuetify` too install and integrate the dependencies on project generation also because it pickes the compatible versions. This way we dont have to waste time trying to solve dependency version incompatibilities.
+- It is wiser to have the `create-vuetify` to install and integrate the dependencies on project generation also because it pickes the compatible versions. This way we dont have to waste time trying to solve dependency version incompatibilities.
 - `@latest` means that every time we run the create-vuetify, the npx makes sure that we use the latest version - updates it automatically before running.
 - `--preset essentials` generates a project, where Vite, Pinia, Vue Router, and Layouts with Composition API are already integrated in the project.
 - `--typescript` generates a project with TypeScript.
