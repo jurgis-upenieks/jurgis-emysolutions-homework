@@ -3,8 +3,70 @@
  *
  * Configures SASS variables and Vuetify overwrites
  */
+@use 'vuetify/settings' with (
+  $blockquote-font-size: clamp(18px, calc(min(1.6vw, 1.6vh) + 10px), 28px),
+  $spacers: (
+    0: var(--v-space-0),
+    1: var(--v-space-1),
+    2: var(--v-space-2),
+    3: var(--v-space-3),
+    4: var(--v-space-4),
+    5: var(--v-space-5),
+    6: var(--v-space-6),
+    7: var(--v-space-7),
+    8: var(--v-space-8),
+    9: var(--v-space-9),
+    10: var(--v-space-10),
+    11: var(--v-space-11),
+    12: var(--v-space-12),
+  ),
+  $typography: (
+    'h1': (
+      'size': var(--v-font-size-h1),
+    ),
+    'h2': (
+      'size': var(--v-font-size-h2),
+    ),
+    'h3': (
+      'size': var(--v-font-size-h3),
+    ),
+    'h4': (
+      'size': var(--v-font-size-h4),
+    ),
+    'h5': (
+      'size': var(--v-font-size-h5),
+    ),
+    'h6': (
+      'size': var(--v-font-size-h6),
+    ),
+    'subtitle-1': (
+      'size': var(--v-font-size-subtitle-1),
+    ),
+    'subtitle-2': (
+      'size': var(--v-font-size-subtitle-2),
+    ),
+    'body-1': (
+      'size': var(--v-font-size-body-1),
+    ),
+    'body-2': (
+      'size': var(--v-font-size-body-2),
+    ),
+    'button': (
+      'size': var(--v-font-size-button),
+    ),
+    'caption': (
+      'size': var(--v-font-size-caption),
+    ),
+    'overline': (
+      'size': var(--v-font-size-overline),
+    ),
+  ),
+);
 
-// https://vuetifyjs.com/features/sass-variables/`
-// @use 'vuetify/settings' with (
-//   $color-pack: false
-// );
+:root {
+  .min-w-xs { min-width: var(--v-size-xs); }
+  .min-w-sm { min-width: var(--v-size-sm); }
+  .min-w-md { min-width: var(--v-size-md); }
+  .min-w-lg { min-width: var(--v-size-lg); }
+  .min-w-xl { min-width: var(--v-size-xl); }
+}

@@ -11,9 +11,12 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    AppFooter: typeof import('./components/AppFooter.vue')['default']
-    HelloWorld: typeof import('./components/HelloWorld.vue')['default']
+    ConfirmDialog: typeof import('./components/ConfirmDialog.vue')['default']
+    FormDialog: typeof import('./components/FormDialog.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    StatusColumn: typeof import('./components/StatusColumn.vue')['default']
+    TaskCard: typeof import('./components/TaskCard.vue')['default']
+    TaskSearchFilters: typeof import('./components/TaskSearchFilters.vue')['default']
   }
 }
