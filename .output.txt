@@ -6,7 +6,7 @@
 > jurgis-emysolutions-homework@0.0.0 build-only
 > vite build
 vite v7.3.1 building client environment for production...
-✓ 570 modules transformed.
+✓ 572 modules transformed.
 dist/assets/roboto-vietnamese-100-normal-CZkTm67L.woff         5.35 kB
 dist/assets/roboto-vietnamese-900-normal-JmgrehrB.woff         5.39 kB
 dist/assets/roboto-vietnamese-400-normal-BYP5tVVv.woff         5.44 kB
@@ -199,11 +199,11 @@ dist/assets/roboto-latin-400-italic-CdnZD53w.woff2            22.38 kB
 dist/assets/roboto-latin-300-italic-BBeuuFIU.woff2            22.44 kB
 dist/assets/roboto-latin-500-italic-CXbgGduZ.woff2            22.54 kB
 dist/assets/roboto-latin-700-italic-C2tFXWtQ.woff2            22.62 kB
-dist/index.html                                               26.41 kB │ gzip:   2.68 kB
+dist/index.html                                               26.41 kB │ gzip:   2.65 kB
 dist/assets/materialdesignicons-webfont-Dp5v-WZN.woff2       403.22 kB
 dist/assets/materialdesignicons-webfont-PXm3-2wK.woff        587.98 kB
 dist/assets/materialdesignicons-webfont-B7mPwVP_.ttf       1,307.66 kB
 dist/assets/materialdesignicons-webfont-CSr8KVlo.eot       1,307.88 kB
-dist/assets/index-Bg3t1Pay.css                               833.31 kB │ gzip: 155.96 kB
-dist/assets/index-J3hEshvG.js                                303.51 kB │ gzip: 102.11 kB
-✓ built in 4.78s
+dist/assets/index-D7i39gsH.css                               833.31 kB │ gzip: 156.17 kB
+dist/assets/index-BrzA9GSG.js                                303.58 kB │ gzip: 102.32 kB
+✓ built in 4.49s
